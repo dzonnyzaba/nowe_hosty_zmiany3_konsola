@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Tue Aug 29 10:03:48 2017 as: nmap -PR -n -sn -oX 10_10_0_0-18.xml 10.10.0.0/18 -->
+<nmaprun scanner="nmap" args="nmap -PR -n -sn -oX 10_10_0_0-18.xml 10.10.0.0/18" start="1503993828" startstr="Tue Aug 29 10:03:48 2017" version="7.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.0.1" addrtype="ipv4"/>
+<address addr="00:0D:B4:10:17:52" addrtype="mac" vendor="Netasq"/>
+<hostnames>
+</hostnames>
+<times srtt="1000" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.10.0.234" addrtype="ipv4"/>
+<address addr="88:90:8D:3A:9C:AA" addrtype="mac" vendor="Cisco Systems"/>
+<hostnames>
+</hostnames>
+<times srtt="0" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1503994032" timestr="Tue Aug 29 10:07:12 2017" elapsed="204.52" summary="Nmap done at Tue Aug 29 10:07:12 2017; 16384 IP addresses (355 hosts up) scanned in 204.52 seconds" exit="success"/><hosts up="355" down="16029" total="16384"/>
+</runstats>
+</nmaprun>
